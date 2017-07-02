@@ -18,6 +18,8 @@ Plug 'w0rp/ale'
 Plug 'pseewald/vim-anyfold'
 "Auto Format Code
 Plug 'Chiel92/vim-autoformat'
+"Comment
+Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 "** Out of Box Settings Start **
