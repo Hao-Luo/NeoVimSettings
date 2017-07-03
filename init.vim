@@ -20,7 +20,10 @@ Plug 'pseewald/vim-anyfold'
 Plug 'Chiel92/vim-autoformat'
 "Comment
 Plug 'scrooloose/nerdcommenter'
+"Global Search
+Plug 'mileszs/ack.vim' 
 call plug#end()
+
 
 "** Out of Box Settings Start **
 " Display Line Numbers
@@ -43,8 +46,6 @@ let g:airline#extensions#ale#enabled = 1
 "Auto Completion
 "Open new window while jump to definition
 let g:ycm_goto_buffer_command = 'horizontal-split'
-"Auto Format While Saving the file
-au BufWrite * :Autoformat
 " Other Settings End"
 
 " ** Shortcut Start **
@@ -74,4 +75,6 @@ nmap <C-j> <Plug>(ale_next_wrap)
 nnoremap <F12> :YcmCompleter GoToDefinitionElseDeclaration<CR>
 "AutoFormat Shortcut
 noremap <F3> :Autoformat<CR>
+"Global Search
+nnoremap <C-f> :Ack<space>
 " " ** Shortcut End **
