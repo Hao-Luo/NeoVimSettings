@@ -26,6 +26,8 @@ call plug#end()
 
 
 "** Out of Box Settings Start **
+"No BOM while saving files
+set nobomb
 " Display Line Numbers
 set nu
 "Set Code Fold
@@ -49,11 +51,10 @@ let g:ycm_goto_buffer_command = 'horizontal-split'
 " Other Settings End"
 
 " ** Shortcut Start **
-
-" Switch Tabs
-nnoremap  <C-]> :tabn<CR>
-nnoremap  <C-[> :tabp<CR>
-nnoremap  <C-c> :tabnew<CR>
+"Change Tabs
+nnoremap <C-[> gt
+"New Tab
+nnoremap <C-c> :tabnew <CR>  
 "Code Fold Shortcut
 nnoremap <space> za
 "Switch Pane Splits (default is ctrl+w +direction)
