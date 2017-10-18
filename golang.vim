@@ -4,6 +4,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 "Declare the list of plugins.
 
+"Vim Go
+Plug 'fatih/vim-go'
 ""Vim Status Bar
 Plug 'vim-airline/vim-airline'
 "File Tree
