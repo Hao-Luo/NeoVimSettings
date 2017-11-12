@@ -62,8 +62,6 @@ nnoremap <space> za
 nnoremap <C-q> :q <CR>
 " Save File
 nnoremap <C-s> :w<CR>
-" Undo/Redo: Redo is Ctrl+R by default
-nnoremap <C-z> :u<CR>
 "Nerd Tree File Panel"
 nnoremap <C-e> :NERDTreeToggle<CR>
 "File Search Shortcut"
