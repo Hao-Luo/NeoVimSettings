@@ -30,6 +30,8 @@ call plug#end()
 set nobomb
 " Display Line Numbers
 set nu
+" Disable the bell
+set visualbell
 " Set Code Fold
 filetype plugin indent on
 
