@@ -30,8 +30,11 @@ call plug#end()
 set nobomb
 " Display Line Numbers
 set nu
-"Set Code Fold
-let anyfold_activate=1
+" Set Code Fold
+filetype plugin indent on
+
+autocmd Filetype * AnyFoldActivate  
+
 set foldlevel=5
 " Ignore Case during search
 set ignorecase
