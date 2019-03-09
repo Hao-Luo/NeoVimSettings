@@ -30,14 +30,11 @@ call plug#end()
 set nobomb
 " Display Line Numbers
 set nu
-" Disable the bell
-set visualbell
-" Set Code Fold
-filetype plugin indent on
-
+"Set Code Fold
 autocmd Filetype * AnyFoldActivate  
-
+filetype plugin indent on
 set foldlevel=5
+
 " Ignore Case during search
 set ignorecase
 " " ** Vim Out of Box Settings End **
